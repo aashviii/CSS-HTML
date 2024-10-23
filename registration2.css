@@ -1,0 +1,110 @@
+.body
+{
+    background-color: lightblue;
+}
+form h3
+{
+    color: red;
+}
+h2
+{
+    color: red;
+}
+.user b
+{
+    text-align: right;
+    position: relative;
+    top: 27px;
+    left: -670px;
+    display: block;
+}
+.user input
+{
+    position: relative;
+    top: 5px;
+    left: 600px;   
+}
+.personal b
+{
+    text-align: right;
+    position: relative;
+    top: 27px;
+    left: -700px;
+    display: block;
+}
+.personal input
+{
+    position: relative;
+    top: 9px;
+    left: 550px;   
+}
+.personal span b
+{
+    text-align: right;
+    position: relative;
+    top: -10px;
+    left: -400px;
+    display: block;
+}
+.personal span input
+{
+    position: relative;
+    top: -30px;
+    left: 850px;
+}
+.personal select
+{
+    position: relative;
+    top: 9px;
+    left: 550px;
+}
+#con select
+{
+    position: relative;
+    top: 9px;
+    left: 850px;
+}
+.account b
+{
+    text-align: right;
+    position: relative;
+    top: 27px;
+    left: -700px;
+    display: block;
+}
+.account input
+{
+    position: relative;
+    top: 10px;
+    left: 550px;
+}
+#nick
+{
+    position: relative;
+    top: -37px;
+    left: 290px;
+}
+#nick1
+{
+    position: relative;
+    top: -30px;
+    left: 840px;
+}
+#cont
+{
+    position: relative;
+    top: -30px;
+    left: -1px;
+}
+#select
+{
+    position: relative;
+    top: -20px;
+    left: 550px;
+}
+#country
+{
+    position: relative;
+    top: -25px;
+    left: 850px;
+}

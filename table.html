@@ -1,0 +1,83 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>European Roulette</title>
+</head>
+<style>
+    td{height: 40px; width: 40px;}
+    td{text-align: center;}
+    td{color: white;}
+    #mycell{width: 100px;}
+    #my{width: 70px;}
+</style>
+<body bgcolor="green">
+    <center>
+        <p><h1> European Roulette</h1></p>
+    <table border="3px">
+        <tbody>
+            <tr>
+                <td rowspan="6">0</td>
+                <td bgcolor="red">3</td>
+                <td bgcolor="black">6</td>
+                <td bgcolor="red">9</td>
+                <td id="my" bgcolor="red">12</td>
+                <td bgcolor="black">15</td>
+                <td bgcolor="red">18</td>
+                <td bgcolor="red">21</td>
+                <td bgcolor="black">24</td>
+                <td bgcolor="red">27</td>
+                <td bgcolor="red">30</td>
+                <td bgcolor="black">33</td>
+                <td bgcolor="red">36</td>
+                <td id="mycell" colspan="2">2to1</td>
+            </tr>
+            <tr>
+                <td bgcolor="black">2</td>
+                <td bgcolor="red">5</td>
+                <td bgcolor="black">8</td>
+                <td id="my" bgcolor="black">11</td>
+                <td bgcolor="red">14</td>
+                <td bgcolor="black">17</td>
+                <td bgcolor="black">20</td>
+                <td bgcolor="red">23</td>
+                <td bgcolor="black">26</td>
+                <td bgcolor="black">29</td>
+                <td bgcolor="red">32</td>
+                <td bgcolor="black">35</td>
+                <td id="mycell" colspan="2">2to1</td>
+            </tr>
+            <tr>
+                <td bgcolor="red">1</td>
+                <td bgcolor="black">4</td>
+                <td bgcolor="red">7</td>
+                <td id="my" bgcolor="black">10</td>
+                <td bgcolor="black">13</td>
+                <td bgcolor="red">16</td>
+                <td bgcolor="red">19</td>
+                <td bgcolor="black">22</td>
+                <td bgcolor="red">25</td>
+                <td bgcolor="black">28</td>
+                <td bgcolor="black">31</td>
+                <td bgcolor="red">34</td>
+                <td id="mycell" colspan="2">2to1</td>
+            </tr>
+            <tr>
+            <td colspan="4"><center>1st12</center></td>
+            <td colspan="4"><center>2nd12</center></td>
+            <td colspan="4"><center>3rd12</center></td>
+            <td id="mycell" rowspan="2"></td>
+            </tr>
+            <tr>
+            <td colspan="2">1to18</td>
+            <td colspan="2">EVEN</td>
+            <td colspan="2" bgcolor="red"></td>
+            <td colspan="2" bgcolor="black"></td>
+            <td colspan="2">ODD</td>
+            <td id="mycell" colspan="2">19to36</td>
+            </tr>
+        </tbody>
+    </table>
+</center>
+</body>
+</html>
